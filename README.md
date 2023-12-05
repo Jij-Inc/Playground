@@ -5,11 +5,10 @@ This repository offers an opportunity to learn about the fundamental techniques 
 
 ## How to Run Tutorials Using Binder
 1. Click on the following Binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Jij-Inc/Playground/main)
-2. Once the repository loads in Binder, a list of Jupyter notebooks will be displayed.
+2. Once the repository loads in Binder, a list of Jupyter notebooks within the `tutorials` directory will be displayed.
 3. To start the tutorial, click on any notebook of your choice.
 4. Execute the code cells in the notebook to experience the process of mathematical optimization.
 
-The notebooks are interactive, allowing you to modify the code and experiment with different parameters.
 
 
 ## Configuration with TOML File
