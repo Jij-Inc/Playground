@@ -1,0 +1,13 @@
+[default]
+url = "https://api.m.jijzept.com/"
+token = "[your_API_key]"
+
+
+
+# for pay-as-you-go user:
+# 
+# [default]
+# url = "https://api.jijzept.com/"
+# token = "[your_API_key]"
+
+
