@@ -33,6 +33,9 @@ token = "your_personal_token"
 2. Please Place `config.toml` in `quickstart directory`
 3. Please run the notebook
 
+## Notice
+`tutorial` directory currently contains old-version ones. It will be updated shortly.
+
 
 ## Contact
 For questions or feedback regarding this tutorial, please submit through GitHub Issues.
