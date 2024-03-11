@@ -1,2 +1,4 @@
 jijzept
 jijmodeling
+matplotlib
+networkx
