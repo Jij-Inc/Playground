@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jijzept = "==1.17.8"
+jijmodeling = "==1.4.1"
+jijmodeling-transpiler = "==0.6.13"
+numpy = "*"
+geocoder = "*"
+matplotlib = "*"
+networkx = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
