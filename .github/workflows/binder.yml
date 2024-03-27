@@ -26,7 +26,7 @@ jobs:
     - name: cache binder build on mybinder.org
       uses: jupyterhub/repo2docker-action@master
       with:
-        IMAGE_NAME: ${{ env.IMAGE_NAME }}
+        IMAGE_NAME: "jij-inc/playground"
         NO_PUSH: true
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
     - name: cache binder build on mybinder.org
