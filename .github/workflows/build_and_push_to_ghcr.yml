@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Push Image with repo2docker
-        uses: jupyterhub/repo2docker-action@main
+        uses: jupyterhub/repo2docker-action@master
         with:
           DOCKER_USERNAME: ${{ github.actor }}
           DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
