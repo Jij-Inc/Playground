@@ -3,14 +3,38 @@ on:
   push:
     branches: 
       - main
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   Create-MyBinderOrg-Cache:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
+    - uses: actions/checkout@v4
+    - name: Log in to the Container registry
+      uses: docker/login-action@v3
+      with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
     - name: cache binder build on mybinder.org
       uses: jupyterhub/repo2docker-action@master
       with:
-        IMAGE_NAME: jij-inc/playground
+        IMAGE_NAME: ${{ env.IMAGE_NAME }}
         NO_PUSH: true
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
+    - name: cache binder build on mybinder.org
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        DOCKER_USERNAME: ${{ github.actor }}
+        DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        DOCKER_REGISTRY: ${{ env.REGISTRY }}
+        IMAGE_NAME: ${{ env.IMAGE_NAME }}
+        BINDER_CACHE: true
+        PUBLIC_REGISTRY_CHECK: true
