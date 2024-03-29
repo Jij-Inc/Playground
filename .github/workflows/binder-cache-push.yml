@@ -1,6 +1,11 @@
 name: Binder Cache Push
 on: 
   workflow_dispatch:
+  push:
+    paths-ignore:
+      - 'binder/**'
+    branches: 
+      - main
 
 env:
   REGISTRY: ghcr.io
