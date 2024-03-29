@@ -1,9 +1,10 @@
 name: Binder
 on: 
   workflow_dispatch:
-  push:
-    branches: 
-      - main
+  workflow_run:
+    workflows: [Binder Cache Push]
+    types:
+      - completed
 
 env:
   REGISTRY: ghcr.io
