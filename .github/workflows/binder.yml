@@ -2,6 +2,8 @@ name: Binder
 on: 
   workflow_dispatch:
   push:
+    paths:
+      - 'binder/**'
     branches: 
       - main
 
