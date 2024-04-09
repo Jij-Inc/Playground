@@ -7,6 +7,10 @@ on:
     branches: 
       - main
 
+concurrency:
+      group: Binder-Cache-Push
+      cancel-in-progress: false
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: jij-inc/playground
