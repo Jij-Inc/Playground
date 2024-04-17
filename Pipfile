@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 jijzept = "==1.17.9"
 jijmodeling = "==1.4.1"
-jijmodeling-transpiler = "==0.6.14"
+jijmodeling-transpiler = "==0.6.15"
 numpy = "*"
 geocoder = "*"
 matplotlib = "*"
