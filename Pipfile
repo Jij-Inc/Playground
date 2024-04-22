@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jijzept = "==1.17.9"
+jijzept = "==1.18.0"
 jijmodeling = "==1.4.1"
 jijmodeling-transpiler = "==0.6.15"
 numpy = "*"
