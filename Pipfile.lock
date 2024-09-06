@@ -1080,6 +1080,7 @@
                 "sha256:f477d26183e94eaafc60b983ab25af2a809a1b48ce4debb57b343f671b7a90b6",
                 "sha256:fc535cb898ef88333cf317777ecdfe0faac1c2a3187ef7eb061b6f7ecf7e6bae"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==2.23.2"
         },
@@ -1266,7 +1267,7 @@
                 "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d",
                 "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
             ],
-            "markers": "python_version < '3.13'",
+            "markers": "python_version >= '3.8'",
             "version": "==4.12.2"
         },
         "tzdata": {
