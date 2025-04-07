@@ -724,16 +724,16 @@
         },
         "ommx": {
             "hashes": [
-                "sha256:1a5093379c92feddea04ca9f6f38406dce4c80e19131eeb7eae2120c91f94a93",
-                "sha256:7a156822dcc10a8cb9605dc87a7e48f7e542280d2f82c508359adf14ba0fa442",
-                "sha256:80d681e9e0b60ffe3608f798e53735956e7cc69e9ff97aa1ddc676949bca027b",
-                "sha256:a18dc71ac566cbb4bde52390e78dc7e1e3bff2114827840f09c5b4f4a127290a",
-                "sha256:f7c63bd18d987fa9a47f1fa6d804bb29911a25a288fdbd796196061739c38bf5",
-                "sha256:fd3811264842a59af3f2072b7f36fd4b72dfbeeeef5035d791b6758a6a7208d7"
+                "sha256:2bff803a97e774a53a8b640319e5cac107d216c6d0627a95fa8fdeb2e06831c3",
+                "sha256:371db0991ced000e9427e0c2762f1f670612adddf7ba77b5d1f7480bcbca8a6d",
+                "sha256:86b2016640f390173a92f00308f2eec0b0afbc12e04c9d6dbba9d02e152bf894",
+                "sha256:8814dcd0555902aa6c50fdaa76474929ab77e569beb0e75d525b717c038f7bbd",
+                "sha256:d94a7c9ca0c0b0be270c9cf97092aba334d2822a9dd24cbab798071578881cb6",
+                "sha256:ecc472d4cc1c13270550ba57716d33bd8a1d2cdfbd9da2b98009c9b2af13f2a7"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==1.8.6"
+            "version": "==1.9.1"
         },
         "orjson": {
             "hashes": [
@@ -958,7 +958,6 @@
                 "sha256:d7d3f7d1d5a66ed4942d4fefb12ac4b14a29028b209d4bfb25c68ae172059922",
                 "sha256:fd32223020cb25a2cc100366f1dedc904e2d71d9322403224cdde5fdced0dabe"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==5.29.4"
         },
@@ -1264,7 +1263,6 @@
                 "sha256:360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c3",
                 "sha256:5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"
             ],
-            "index": "pypi",
             "version": "==2025.2"
         },
         "ratelim": {
@@ -1311,7 +1309,6 @@
                 "sha256:4b6cf02909eb5495cfbc3f6e8fd49217e6cc7944e145cdda8caa3734777f9e69",
                 "sha256:98795af00fb9640edec5b8e31fc647597b4691f099ad75f469a2616be1a76dff"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==4.13.1"
         },
@@ -1328,7 +1325,6 @@
                 "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8",
                 "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9"
             ],
-            "index": "pypi",
             "markers": "python_version >= '2'",
             "version": "==2025.2"
         },
